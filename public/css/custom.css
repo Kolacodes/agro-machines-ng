@@ -1,1 +1,7 @@
 /* Add here all your CSS customizations */
+
+/* CSS Variables */
+
+:root{
+  --primary-color: #0add08;
+}
