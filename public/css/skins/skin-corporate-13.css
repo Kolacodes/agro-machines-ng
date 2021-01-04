@@ -7,6 +7,13 @@
 }
 
 
+:root{
+  --primary-color: #0add08;
+  --primary-color: #e3ff00;
+}
+
+
+
 ::-moz-selection {
 	color: #FFF;
 	background: #0add08;
@@ -856,7 +863,7 @@ html .badge-light {
 }
 
 html .overlay-color-primary:not(.no-skin):before {
-	background-color: #059886 !important;
+	background-color: var(--primary-color) !important;
 }
 
 html .overlay-color-secondary:not(.no-skin):before {
