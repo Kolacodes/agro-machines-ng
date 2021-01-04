@@ -1,3 +1,11 @@
+
+/* CSS Variables */
+
+:root{
+  --primary-color: #e3ff00;
+
+}
+
 ::-moz-selection {
 	color: #FFF;
 	background: #0add08;
@@ -239,6 +247,8 @@ html .svg-stroke-color-light svg polygon {
 html .bg-color-primary,
 html .bg-primary {
 	background-color: #059886 !important;
+	background-color: var(--primary-color) !important;
+
 }
 
 html .bg-color-hover-primary:hover,
@@ -2774,6 +2784,8 @@ html .inverted-light {
 .owl-carousel.nav-style-1 .owl-nav .owl-next,
 .owl-carousel.nav-style-1 .owl-nav .owl-prev {
 	color: #059886 !important;
+	color: var(--primary-color) !important;
+
 }
 
 .owl-carousel.nav-style-2 .owl-nav .owl-next:before,
@@ -3908,7 +3920,7 @@ html[dir="rtl"] #header .tip-light:before {
 }
 
 #header .header-btn-collapse-nav {
-	background: #059886;
+	background: var(--primary-color);
 }
 
 @media (min-width: 992px) {
