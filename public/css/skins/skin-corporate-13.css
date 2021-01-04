@@ -3,8 +3,9 @@
 
 :root{
   --primary-color: #e3ff00;
-
+  --primary-color: #0add08;
 }
+
 
 ::-moz-selection {
 	color: #FFF;
@@ -2749,7 +2750,7 @@ html .inverted-light {
 
 .owl-carousel .owl-dots .owl-dot.active span,
 .owl-carousel .owl-dots .owl-dot:hover span {
-	background-color: #047a6c;
+	background-color: var(--primary-color);
 }
 
 .owl-carousel.show-nav-title .owl-nav button[class*="owl-"],
@@ -2783,7 +2784,6 @@ html .inverted-light {
 
 .owl-carousel.nav-style-1 .owl-nav .owl-next,
 .owl-carousel.nav-style-1 .owl-nav .owl-prev {
-	color: #059886 !important;
 	color: var(--primary-color) !important;
 
 }

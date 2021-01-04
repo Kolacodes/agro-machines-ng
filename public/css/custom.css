@@ -3,7 +3,10 @@
 /* CSS Variables */
 
 :root{
-  --primary-color: #0add08;
   --primary-color: #e3ff00;
+  --primary-color: #0add08;
+}
 
+.color-primary{
+  color: var(--primary-color) !important;
 }
