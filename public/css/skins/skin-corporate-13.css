@@ -7,13 +7,6 @@
 }
 
 
-:root{
-  --primary-color: #0add08;
-  --primary-color: #e3ff00;
-}
-
-
-
 ::-moz-selection {
 	color: #FFF;
 	background: #0add08;
