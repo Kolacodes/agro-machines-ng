@@ -10,3 +10,8 @@
 .color-primary{
   color: var(--primary-color) !important;
 }
+
+.afrocodez{
+  text-align: center;
+  padding-bottom: 50px;
+}
