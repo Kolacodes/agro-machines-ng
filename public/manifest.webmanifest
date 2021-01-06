@@ -3,18 +3,18 @@
     "short_name": "Agro",
     "icons": [
         {
-            "src": "images/iphone.png",
-            "sizes": "600x600",
+            "src": "images/logo.png",
+            "sizes": "500x500",
             "type": "image/png"
         },
         {
-            "src": "images/iphone.png",
-            "sizes": "600x600",
+            "src": "images/logo.png",
+            "sizes": "500x500",
             "type": "image/png"
         },
         {
-            "src": "images/iphone.png",
-            "sizes": "600x600",
+            "src": "images/logo.png",
+            "sizes": "500x500",
             "type": "image/png"
         }
     ],
